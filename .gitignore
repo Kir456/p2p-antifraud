@@ -7,7 +7,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # CatBoost logs
-notebooks\catboost_info
+notebooks/catboost_info
 
 # Большие данные
 # data/raw/
