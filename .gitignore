@@ -10,3 +10,6 @@ __pycache__/
 # Большие данные
 # data/raw/
 # data/processed/
+
+# Веса моделей
+# models/
