@@ -22,11 +22,11 @@ FINAL_TEAM_PROJECT/
 │   ├── catboost_fraud_model_weights.cbm # Обученные веса CatBoost
 │   └── logistic_regression_pipeline.pkl # Пайплайн предобработки и LogReg
 ├── notebooks/                    # Основной исполняемый код проекта
-│   ├── 1_data.ipynb  # Инженерия признаков и as-of джойн
-│   └── 2_train&metrics.ipynb    # Обучение, тюнинг весов и блендинг
+│   ├── 1_data.ipynb              # Инженерия признаков и as-of джойн
+│   └── 2_train&metrics.ipynb     # Обучение, тюнинг весов и блендинг
+├── .gitignore                    # Список исключений для Git
 ├── requirements.txt              # Список библиотек проекта
-├── README.md                     # Главный файл описания проекта
-└── requirements.txt              # Список исключений при загрузке файлов и тд
+└── README.md                     # Главный файл описания проекта
 ```
 
 ---
@@ -67,4 +67,4 @@ pip install -r requirements.txt
 2. Убедитесь, что исходные файлы `final_p2p_log.csv` и `final_trans_log.csv` находятся в папке `data/raw/`.
 3. Последовательно выполните Jupyter-ноутбуки из директории `notebooks/`:
    * **`1_data.ipynb`** — Обработает сырые `.csv` файлы, проведет инженерию признаков и сохранит готовые `train_cleaned.csv` и `test_cleaned.csv` в папку `data/processed/`.
-   * **`2_train&metrics.ipynb`** — Обучит модели, проведет расчет Target Encoding, построит сверх-ансамбль, сгенерирует визуальные дашборды и сохранит сериализованные компоненты системы в папку `models/`.
+   * **`2_model&metrics.ipynb`** — Обучит модели, проведет расчет Target Encoding, построит сверх-ансамбль, сгенерирует визуальные дашборды и сохранит сериализованные компоненты системы в папку `models/`.
