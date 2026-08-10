@@ -10,8 +10,8 @@ __pycache__/
 notebooks/catboost_info
 
 # Большие данные
-# data/raw/
-# data/processed/
+data/raw/
+data/processed/
 
 # Веса моделей
-# models/
+models/
