@@ -9,10 +9,6 @@ catboost==1.2.10
 lightgbm==4.6.0
 joblib==1.5.3
 
-# --- Базы данных и СУБД ---
-SQLAlchemy==2.0.31
-psycopg2-binary==2.9.9
-
 # --- Визуализация и Дашборды ---
 matplotlib==3.10.9
 seaborn==0.13.2
