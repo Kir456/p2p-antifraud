@@ -1,0 +1,17 @@
+venv/
+.venv/
+env/
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# CatBoost logs
+notebooks/catboost_info
+
+# Большие данные
+data/raw/
+data/processed/
+
+# Веса моделей
+models/
